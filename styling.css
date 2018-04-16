@@ -1,0 +1,108 @@
+body {
+    text-align: center;
+    font-family: Helvetica; /* why aren't there other fonts */
+    font-size: 14px;
+}
+
+h1 {
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 800;
+    padding-top: 10px;
+}
+
+strong {
+    font-size: 20px;
+    color: rgb(219, 23, 23)
+}
+
+/* .container-large {
+    background-image: url("https://www.islands.com/sites/islands.com/files/styles/380_4x3/public/islands-homepage-grid-beach.jpg?itok=MFnibsJe");
+    background-repeat: no-repeat;
+    background-position: center;
+} */
+
+.input-container {
+    text-align: left;
+    width: 200px;
+    margin: auto;
+}
+
+.input {
+    text-align: left;
+    width: 75px;
+    margin-top: 5px;
+}
+
+.button {
+    background-color: #009a9a; /* Green */
+    border: solid 1px #2d7e7e;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    display: inline-block;
+}
+
+.button:active {
+    background-color: #097777
+}
+
+.change {
+    background-color: #f7a269; /* Peach */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+}
+
+.img {
+    width: 100px;
+    display: none;
+    position: relative;
+    top: 20px;
+}
+
+#help-text {
+    font-size: 13px;
+    font-family: Roboto;
+    background: rgb(250, 244, 195);
+    width: 320px;
+    padding: 2px;
+    margin: auto;
+}
+
+#change-needed-text {
+    font-size: 16px;
+    font-family: Roboto;
+}
+
+p {
+    padding: 15px 32px;
+    margin: auto;
+}
+
+#dollars-output {
+    font-size: 20px;
+    background-color: #e7764a;
+}
+
+#island-mode {
+    color: black;
+    font-size: 12px;
+    background-color: rgb(248, 248, 122);
+    padding: 6px 12px;
+    float: right;
+    position: relative;
+    right: 110px;
+    top: 20px;
+    border: solid 1px rgb(204, 204, 114);
+
+}
+
+#island-mode:active {
+    background-color: rgb(218, 218, 88);
+}
