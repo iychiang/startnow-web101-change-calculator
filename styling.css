@@ -34,6 +34,16 @@ strong {
     margin-top: 5px;
 }
 
+.img-container {
+    width: 150px;
+    position: relative;
+    margin: auto;
+}
+
+.change-needed-div {
+    height: 60px;
+}
+
 .button {
     background-color: #009a9a; /* Green */
     border: solid 1px #2d7e7e;
