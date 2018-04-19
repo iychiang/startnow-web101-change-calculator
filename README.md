@@ -2,6 +2,7 @@
 
 Having trouble knowing exactly how much of each coin to give back to your customers? Have no fear, the change calculator is here! Now you can not only increase your accuracy in handing back the correct amount change, but also get a picture indication of whether the customer still owes you money, if you need to give change, or if you've input something incorrectly!
 
+![screenshot](/Users/irenechiang/oca/startnow-web101-change-calculator/static/Screen Shot 2018-04-19 at 1.22.16 PM.png)
 ---
 *Author's note:*
 
