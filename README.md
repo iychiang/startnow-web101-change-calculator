@@ -4,4 +4,5 @@ Having trouble knowing exactly how much of each coin to give back to your custom
 
 ---
 *Author's note:*
+
 *Island Mode is currently not available*
