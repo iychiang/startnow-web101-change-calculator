@@ -61,10 +61,11 @@ function calculateChange() {
 
         changeArray.forEach(function (change) {
             document.getElementById(change.output + '-output').innerHTML = "";
-
+            document.getElementById(change.output + '-output').style.display = "none";
+            
             if (change.amount !== 0) {
                 document.getElementById(change.output + '-output').innerHTML = "<p>" + change.amount + " " + change.output + "</p>";
-                //document.getElementById(change.output + '-output').style.display = "inline-block";
+                document.getElementById(change.output + '-output').style.display = "inline-block";
             }
         });
 
