@@ -17,7 +17,6 @@ function calculateChange() {
 
     var changeNeededText = document.getElementById("change-needed-text")
     // document.getElementById("help-text").style.backgroundColor = "transparent";
-    helpText.style.backgroundColor = "transparent";
 
     hideElement(facePalm);
     hideElement(okHand);
@@ -84,6 +83,5 @@ function islandMode(){ //for funsies
             tag.innerHTML = "sand dollars";
         }
     });
-
     //use querySelectorAll to change innerHTML values
 }

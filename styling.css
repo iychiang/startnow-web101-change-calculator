@@ -55,6 +55,10 @@ strong {
     display: inline-block;
 }
 
+/* .container-large {
+    text-align: center;
+} */
+
 .button:active {
     background-color: #097777
 }
@@ -79,7 +83,6 @@ strong {
 #help-text {
     font-size: 13px;
     font-family: Roboto;
-    background: rgb(250, 244, 195);
     width: 320px;
     padding: 2px;
     margin: auto;
