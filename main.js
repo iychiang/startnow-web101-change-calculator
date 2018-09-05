@@ -67,6 +67,7 @@ function calculateChange() {
                 document.getElementById(change.output + '-output').innerHTML = "<p>" + change.amount + " " + change.output + "</p>";
                 document.getElementById(change.output + '-output').style.display = "inline-block";
             }
+            
         });
 
         // instead of this: document.getElementById("dollars-output").innerHTML = dollars + " Dollar bills";
@@ -77,7 +78,7 @@ document.getElementById("calculate-change").onclick = calculateChange;
 
 document.getElementById("island-mode").onclick = islandMode;
 
-function islandMode(){ //for funsies
+function islandMode(){ //for funsies but not yet implemented
     
     document.querySelectorAll("*").forEach(function(tag){
         if (tag === "dollars-output") {
